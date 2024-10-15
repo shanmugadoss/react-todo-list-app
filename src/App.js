@@ -16,7 +16,7 @@ function App() {
     setItems(items.filter(item => item.id !== id));
   }
 
-  const [newItem, setNewItem] = useState('');
+  const [newItem, setNewItem] = useState(''); 
 
   const handleSubmit = () => {
     if(!newItem) return;
